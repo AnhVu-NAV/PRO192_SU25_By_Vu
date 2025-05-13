@@ -38,6 +38,17 @@ public class ToanTu {
 //            
 //        }
         
+//        for (int i = 0; i < 3; i++) {
+//            
+//        }
+    raKhoi:
+        for (int i = 0; i < 10; i++) {
+            for (int j = 0; j < 10; j++) {
+                if(i==3){
+                    break raKhoi; 
+                }
+            }
+        }
         
         
         
