@@ -7,21 +7,19 @@
  *
  * @author AnhVuNAV
  */
-public class Employee extends Person{
+public class Fresher extends Employee{
 
-    public Employee() {
+    public Fresher() {
     }
 
-    public Employee(String id, String name, int age) {
+    public Fresher(String id, String name, int age) {
         super(id, name, age);
     }
-    
-    
 
     @Override
     public String toString() {
-        return "Employee{" + "id=" + super.getId() + ", name=" + super.getName() + ", age=" + super.getAge() +'}';
+        return "Fresher{" + "id=" + super.getId() + ", name=" + super.getName() + ", age=" + super.getAge() + '}';
     }
-    
+     
     
 }
